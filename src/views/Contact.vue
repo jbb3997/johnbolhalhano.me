@@ -7,13 +7,15 @@
         <form name="contact" method="POST" data-netlify="true">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name"></div>
+            <input type="text" name="name" id="name" required>
+          </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email"></div>
+            <input type="email" name="email" id="email">
+          </div>
           <div class="form-group">
             <label for="message">Mesage</label>
-            <textarea name="message" id="message"></textarea>
+            <textarea name="message" id="message" requried></textarea>
           </div>
           <div class="form-group">
             <div data-netlify-recaptcha="true"></div>

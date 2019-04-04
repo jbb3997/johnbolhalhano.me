@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "gh-pages": "^2.0.1",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "webpack": "^4.29.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
