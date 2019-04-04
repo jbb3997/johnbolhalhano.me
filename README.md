@@ -1,29 +1,8 @@
-# jbsite
+# Hi and Welcome
 
-## Project setup
-```
-npm install
-```
+Welcome and feel free to checkout my [website](https://johnbolhano.me)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Personal Repo
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This repo is for my personal use. I like to host my website here on Github for reasons that it is free, easy to work with and update my code. Also so you can see my code and know how am I doing and critic on it.
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
