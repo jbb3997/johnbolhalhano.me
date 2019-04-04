@@ -11,6 +11,7 @@ html, body {
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   background-color: #333333;
 }
@@ -21,6 +22,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #f7c08a;
 }
 
@@ -165,7 +167,7 @@ p {
 }
 
 .showcase {
-  background: url("./img/computer-1.gif") no-repeat center/cover;
+  background: url("./img/computer-1.jpg") no-repeat center/cover;
   height: 100vh;
   position: relative;
 }

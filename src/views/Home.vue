@@ -4,7 +4,7 @@
       <div class="backdrop"></div>
       <div class="container">
         <div class="showcase__content">
-          <h1><span class='text-primary'>Front</span> End Developer</h1>
+          <h1><span class='text-primary'>Web</span> Developer</h1>
           <p class='lead'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
           <router-link to="/contact" class="btn">Get in Touch</router-link>
         </div>
