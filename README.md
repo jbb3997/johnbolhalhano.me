@@ -1,6 +1,8 @@
 # Hi and Welcome
 
-Welcome and feel free to checkout my [website](https://johnbolhano.me)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b1e6b96-8a64-4475-9d92-8304ca42cf3f/deploy-status)](https://app.netlify.com/sites/johnbolhano/deploys)
+
+Welcome and feel free to checkout my [website](https://johnbolhano.me).
 
 ## Personal Repo
 
