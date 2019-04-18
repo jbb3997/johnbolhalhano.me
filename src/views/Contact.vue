@@ -2,9 +2,13 @@
   <main>
     <section class="contact-form py-3">
       <div class="container">
-        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
-        <p>Please fill out the form below to contact us</p>
-        <form name="contact" method="POST" data-netlify="true">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Me</h1>
+        <p>Please fill out the form below to contact me</p>
+        <form name="contact" method="POST" action="/thank-you" netlify-honeypot="bot-field" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" required>
@@ -16,9 +20,6 @@
           <div class="form-group">
             <label for="message">Mesage</label>
             <textarea name="message" id="message" requried></textarea>
-          </div>
-          <div class="form-group">
-            <div data-netlify-recaptcha="true"></div>
           </div>
           <button type="submit" class="btn">Submit</button>
         </form>
@@ -44,3 +45,7 @@
     <div class="clr"></div>
   </main>
 </template>
+
+<style>
+.hidden {display: none;}
+</style>
